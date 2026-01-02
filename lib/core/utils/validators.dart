@@ -1,0 +1,41 @@
+/// Validation utilities for form fields
+class Validators {
+  /// Validates email format
+  static String? validateEmail(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Email is required';
+    }
+    
+    final emailRegex = RegExp(
+      r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$',
+    );
+    
+    if (!emailRegex.hasMatch(value)) {
+      return 'Please enter a valid email address';
+    }
+    
+    return null;
+  }
+  
+  /// Validates password with minimum length requirement
+  static String? validatePassword(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Password is required';
+    }
+    
+    if (value.length < 6) {
+      return 'Password must be at least 6 characters';
+    }
+    
+    return null;
+  }
+  
+  /// Validates non-empty field
+  static String? validateRequired(String? value, {String fieldName = 'Field'}) {
+    if (value == null || value.isEmpty) {
+      return '$fieldName is required';
+    }
+    return null;
+  }
+}
+

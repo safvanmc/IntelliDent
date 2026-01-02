@@ -1,0 +1,65 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "title": "Brush Twice Daily",
+      "description": "Brush your teeth at least twice a day, preferably in the morning and before bedtime. Use a fluoride toothpaste and brush for at least two minutes each time.",
+      "category": "Daily Care"
+    },
+    {
+      "id": 2,
+      "title": "Floss Regularly",
+      "description": "Flossing removes plaque and food particles from between your teeth where your toothbrush can't reach. Make it a daily habit to prevent gum disease and cavities.",
+      "category": "Daily Care"
+    },
+    {
+      "id": 3,
+      "title": "Use Fluoride Toothpaste",
+      "description": "Fluoride helps strengthen tooth enamel and prevents tooth decay. Choose a toothpaste with fluoride approved by dental associations for optimal protection.",
+      "category": "Prevention"
+    },
+    {
+      "id": 4,
+      "title": "Limit Sugary Foods",
+      "description": "Reduce consumption of sugary snacks and drinks. Sugar feeds harmful bacteria in your mouth, leading to acid production that erodes tooth enamel.",
+      "category": "Diet"
+    },
+    {
+      "id": 5,
+      "title": "Drink Plenty of Water",
+      "description": "Water helps wash away food particles and bacteria. It also promotes saliva production, which naturally protects your teeth by neutralizing acids.",
+      "category": "Diet"
+    },
+    {
+      "id": 6,
+      "title": "Replace Your Toothbrush",
+      "description": "Replace your toothbrush every three to four months, or sooner if the bristles are frayed. A worn toothbrush is less effective at cleaning your teeth.",
+      "category": "Hygiene"
+    },
+    {
+      "id": 7,
+      "title": "Regular Dental Checkups",
+      "description": "Visit your dentist every six months for professional cleanings and checkups. Early detection of dental issues can prevent more serious problems later.",
+      "category": "Prevention"
+    },
+    {
+      "id": 8,
+      "title": "Avoid Tobacco Products",
+      "description": "Tobacco use increases the risk of gum disease, tooth loss, and oral cancer. Quitting tobacco significantly improves your oral and overall health.",
+      "category": "Prevention"
+    },
+    {
+      "id": 9,
+      "title": "Use Mouthwash",
+      "description": "Antimicrobial mouthwash can help reduce plaque and prevent gingivitis. Use it as a supplement to brushing and flossing, not as a replacement.",
+      "category": "Daily Care"
+    },
+    {
+      "id": 10,
+      "title": "Protect Your Teeth",
+      "description": "Wear a mouthguard during sports activities to prevent dental injuries. Also avoid using your teeth as tools to open packages or bottles.",
+      "category": "Prevention"
+    }
+  ]
+}
+
